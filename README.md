@@ -1,3 +1,3 @@
 # README
 
-Ce projet ne sert à rien
+Ce projet ne sert à rien du tout
