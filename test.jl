@@ -5,4 +5,4 @@ using Distributions
 N = Normal(0.5, 0.1)
 
 # Print 500 random variables
-@info rand(N, 500)
+[print(x) for x in rand(N, 500)]
