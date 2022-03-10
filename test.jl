@@ -1,8 +1,8 @@
 # Load the packages
 using Distributions
 
-# Normal distribution, stdev = 0.1
-N = Normal(0.0, 0.1)
+# Normal distribution, avg = 0.5, stdev = 0.1
+N = Normal(0.5, 0.1)
 
-# Print 150 random variables
-@info rand(N, 150)
+# Print 250 random variables
+@info rand(N, 250)
